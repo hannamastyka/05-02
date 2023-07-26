@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.alphabet-list {
+  list-style: none;
+  padding: 0;
+}
+
+.alphabet-list li {
+  font-size: 24px;
+  padding: 10px;
+}
+
+.alphabet-list li:nth-child(even) {
+  text-align: center;
+}
